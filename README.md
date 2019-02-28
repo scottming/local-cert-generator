@@ -1,4 +1,4 @@
-# HTTPS for `localhost`
+¬# HTTPS for `localhost`
 
 A set of scripts to quickly generate a HTTPS certificate for your local development environment.
 
@@ -13,7 +13,7 @@ cd local-cert-generator
 2. Run the script to create a root certificate:
 
 ```
-sh createRootCA.sh
+sh createRootCA.sh # when Common Name question, you should type a name.
 ```
 
 3. Add the root certificate we just generated to your list of trusted certificates. This step depends on the operating system you're running:
